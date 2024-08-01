@@ -7,7 +7,7 @@
 
 import Foundation
 
-class URLConfiguration {
+final class URLConfiguration {
     let endpoint: String
     let query: [String: String]
     
