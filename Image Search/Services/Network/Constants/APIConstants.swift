@@ -8,7 +8,18 @@
 import Foundation
 
 enum APIConstant {
-    static let apiKey = "HRcjOzOBEM4MkuGRpmZGJXeraZ5Ys9yJ9YjsZU-G-4c"
+    static let apiKey: String = {
+        guard let filePath = Bundle.main.path(forResource: "Config", ofType: "plist") else {
+            print("Couldn't find file 'Config.plist'.")
+            return .init()
+        }
+        let plist = NSDictionary(contentsOfFile: filePath)
+        guard let value = plist?.object(forKey: "API_KEY") as? String else {
+            print("Couldn't find key 'API_KEY' in 'Config.plist'.")
+            return .init()
+        }
+        return value
+    }()
     
     enum QueryItem {
         static let query = "query"
