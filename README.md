@@ -35,8 +35,6 @@ Image Search is a SwiftUI application that allows users to search for images usi
 
 ## Configuration
 
-## Scripts
-
 ### Decrypt Config File
 
 The `decrypt_config.sh` script is used to decrypt the `Config.plist` file required for API key configuration.
@@ -91,7 +89,5 @@ Make sure the `Config.plist` file is included in the build. You can verify this 
 - This project uses the public API provided by ***Unsplash.com***.
 
 ## Screenshots
-
-![Simulator Screenshot - iPhone 15 - 2024-08-02 at 12.18.39.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7789e415-3ca6-4b13-8cef-8f2d1abd719b/f29b60f1-554b-4ffb-b7bd-4212a16f9ddf/Simulator_Screenshot_-_iPhone_15_-_2024-08-02_at_12.18.39.png)
-
-![Simulator Screenshot - iPhone 15 - 2024-08-02 at 12.18.14.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7789e415-3ca6-4b13-8cef-8f2d1abd719b/60b57bb0-b5e3-42cf-acee-8d99f8c4c220/Simulator_Screenshot_-_iPhone_15_-_2024-08-02_at_12.18.14.png)
+<img src="Screenshots/Screenshot1.png" alt="App Screenshot" width="300"/>
+<img src="Screenshots/Screenshot2.png" alt="App Screenshot" width="300"/>
