@@ -87,5 +87,5 @@ Make sure the `Config.plist` file is included in the build. You can verify this 
 - This project uses the public API provided by ***Unsplash.com***.
 
 ## Screenshots
-![App Screenshot](Screenshots/Screenshot1.png)
-![App Screenshot](Screenshots/Screenshot2.png)
+<img src="Screenshots/Screenshot1.png" alt="App Screenshot" width="300"/>
+<img src="Screenshots/Screenshot2.png" alt="App Screenshot" width="300"/>
