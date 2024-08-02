@@ -60,6 +60,8 @@ Replace `YOUR_PASSWORD` with the actual password used for encryption.
 This project requires an API key to fetch images. To keep the API key secure, it is stored in a `Config.plist` file which is encrypted in the repository.
 
 1. **Decrypt `Config.plist`**
+
+    Open `Scripts/decrypt_config.sh`.
     
     Run the `decrypt_config.sh` script to decrypt the `Config.plist` file:
     
